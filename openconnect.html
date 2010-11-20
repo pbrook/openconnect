@@ -130,7 +130,8 @@ instead of the one you download from the server. Or by running their
 binary but poking at it with gdb.<P>
 We support this idiocy, but because of the security concerns the
 trojan will be executed only if a userid is specified on the command
-line using the <TT>--csd-user=</TT> option.
+line using the <TT>--csd-user=</TT> option, or the <TT>--csd-wrapper=</TT>
+option is used to handle the script in a 'safe' manner.
 <P>
 This support currently only works when the server has a Linux binary
 installed, and only when that Linux binary runs on the client machine.
